@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="portfolio.css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images\WhatsApp Image 2024-07-17 at 12.49.23_b6d5120d.jpg" alt="logo image" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer | Java Developer</p>
+                <h1>
+                    Hi, I'm <span>Naman Palria</span><br />
+
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I am Naman Palria from mandsaur, currently i am pursuing my Bachelor of technology in
+                        computer science from mandsaur university. I am a versatile, multitasking, and fluent in english
+                        and hindi spoken. I have completed two web development internship with Codsoft and InternPe. I
+                        worked on multiple project like i have made an animal care website named Strays. I have multiple
+                        hobbies like Singing, Playing musical instruments and Travelling. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Mysql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>Graduation <span>2021 - Current</span><br>Mandsaur University</li>
+                            <li>12<sup>th </sup><span>2020 - 2021</span><br>Dashpur Vidyalaya</li>
+                            <li>10<sup>th </sup><span>2018 - 2019</span><br>Dashpur Vidyalaya</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Web Developer Intern at Codsoft</li>
+                            <li>React.js intern at Codsoft</li>
+                            <li>Web Developer intern at InternPe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Strays</h2>
+                    <p>Strays is a animal care website especially made for stray animals. Here we provide services like
+                        treatment, Adoption and many other services. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Landing Page</h2>
+                    <p>I created a landing page for a tour package website.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Weather Website</h2>
+                    <p>Weather website consist defferent cities and parts of world showing their current and upcoming
+                        temperatures.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>namanpalria@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>+91 9098******</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="assets/my-cv.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ MdRasen. Made with <i class="fa-solid fa-heart"></i> by <a href="#">MdRasen</a></p>
+        </div>
+    </div>
+    <script>document.getElementsByClassName(.skills)</script>
+
+
+</body>
+
+</html>
