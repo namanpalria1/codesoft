@@ -1,0 +1,133 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('images/tourism.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5) margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+    max-width: 100%;
+    position: static;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+main {
+
+    padding: 4rem 1rem;
+    text-align: center;
+    color: #000000d9;
+}
+
+
+
+section {
+    margin-bottom: 4rem;
+}
+
+.booking-section form,
+.feedback-section form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-section h2,
+.feedback-section h2,
+.explore-section h2,
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.booking-section label,
+.feedback-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.booking-section input,
+.feedback-section input,
+.feedback-section textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.booking-section button,
+.feedback-section button,
+.explore-section .button {
+    display: inline-block;
+    background-color: #aa0d51;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.booking-section button:hover,
+.feedback-section button:hover,
+.explore-section .button:hover {
+    background-color: #555;
+}
+
+.explore-section p {
+    margin-bottom: 2rem;
+}
+
+.contact-section ul {
+    text-decoration: double;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#dates {
+    text-align: center;
+}
